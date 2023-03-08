@@ -1,5 +1,6 @@
-﻿using CommunityToolkit.Mvvm.Input;
-using System.Linq.Expressions;
+﻿using System;
+using System.Collections.Generic;
+using NCalc
 
 namespace SicCalcMaiu.ViewModels
 {
@@ -51,10 +52,10 @@ namespace SicCalcMaiu.ViewModels
 
                 CalculatedResult = result.ToString();
             }
-            catch (Exception)
+            catch
             {
 
-                throw;
+                CalculatedResult = "NaN";
             }
         }
 
