@@ -20,6 +20,7 @@
         <Setter Property="BackgroundColor" Value="Transparent"/>
     </Style>
 
+    <!--test-->
     <!--Button Styles-->
     <Style TargetType="Button" x:Key="NumberButtonStyle">
         <Setter Property="FontSize" Value="22"/>
