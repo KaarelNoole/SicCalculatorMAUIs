@@ -7,7 +7,7 @@
     <!--Content Page Style-->
     <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
         <Setter Property="NavigationPage.HasNavigationBar" Value="False" />
-        <Setter Property="PageBackgroundColor" Value="{StaticResource PageBackGroundColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource PageBackgroundColor}"/>
     </Style>
 
     <!--Grid Styles-->
@@ -20,7 +20,7 @@
         <Setter Property="BackgroundColor" Value="Transparent"/>
     </Style>
 
-    <!--test-->
+    
     <!--Button Styles-->
     <Style TargetType="Button" x:Key="NumberButtonStyle">
         <Setter Property="FontSize" Value="22"/>
