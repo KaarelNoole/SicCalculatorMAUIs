@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.Input;
+using System.Linq.Expressions;
 
 namespace SicCalcMaiu.ViewModels
 {
@@ -45,6 +46,10 @@ namespace SicCalcMaiu.ViewModels
             try
             {
                 var inputString = NormalizeInputString();
+                var expression = new Expression(inputString);
+                var result = expression.Evaluate();
+
+                CalculatedResult = result.ToString();
             }
             catch (Exception)
             {
