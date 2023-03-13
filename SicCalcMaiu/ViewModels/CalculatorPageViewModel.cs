@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using NCalc
+using System.Collections.Generic;
 
 namespace SicCalcMaiu.ViewModels
 {
     [INotifyPropertyChanged]
     internal partial class CalculatorPageViewModel //: INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
         [ObservableProperty]
         private string inputText = string.Empty;
