@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using NCalc
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SicCalcMaiu.ViewModels
 {
